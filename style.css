@@ -48,4 +48,20 @@ input{
 	padding:5px;
 }
 	
+aside{
+	padding:20px;
+}
 
+ul{
+	padding-left:0px;
+}
+
+ul li{
+	list-style-type:none;
+	padding:10px;
+	border:solid 1px lightgrey;
+	width:20%;
+	margin-bottom:5px;
+	text-align:center;
+	border-radius:5px;
+}
