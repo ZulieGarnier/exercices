@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -9,6 +10,18 @@
 	<nav>
 		<h1 class="nav-title"></h1>
 		<form>
+			<label for="nom">
+       				 <span>Nom : </span>
+       				 <input type="text" id="nom" name="nomdutilisateur" required />
+			</label>
+    
+      			<label for="courriel">
+        			<span>Email : </span>
+        			<input type="email" id="courriel" name="courrielutilisateur" required/>
+        		
+      			</label>
+
+			<button>Go !</button>
 		</form>
 	</nav>
 </header>
