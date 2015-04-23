@@ -3,16 +3,32 @@ body{
 	margin:0px;
 }
 
+.container{
+	margin-left:100px;
+	margin-right:100px;
+}
+
 header{
 	width:100%;
-	margin-top:0px;
 	background-color:black;
 	color:white;
+	display:inline-block;
+	padding:20px;
+}
+
+.nav-title{
+	margin:0px;
+	float:left;
+	line-height:24px;
 }
 
 header form{
 	margin:0px;
+	float:right;
+	line-height:24px;
+	
 }
+
 
 button{
 	background-color:green;
