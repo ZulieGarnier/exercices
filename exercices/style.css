@@ -50,6 +50,8 @@ input{
 	
 aside{
 	padding:20px;
+	width:40%;
+	display:inline-block;
 }
 
 ul{
@@ -64,4 +66,12 @@ ul li{
 	margin-bottom:5px;
 	text-align:center;
 	border-radius:5px;
+}
+
+main{
+	width:55%;
+	border-left:solid 1px lightgrey;
+	text-align:justify;
+	float:right;
+	padding-left:25px;
 }
